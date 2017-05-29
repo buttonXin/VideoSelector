@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="确定"
+        android:background="#11d7b3"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_selector_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:overScrollMode="never"
+        android:layout_margin="5dp"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
